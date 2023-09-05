@@ -1,0 +1,27 @@
+PODS:
+  - bumbleBee (1.0)
+  - KMPNativeCoroutinesAsync (0.13.3):
+    - KMPNativeCoroutinesCore (= 0.13.3)
+  - KMPNativeCoroutinesCore (0.13.3)
+
+DEPENDENCIES:
+  - bumbleBee (from `../bumbleBee`)
+  - KMPNativeCoroutinesAsync
+
+SPEC REPOS:
+  trunk:
+    - KMPNativeCoroutinesAsync
+    - KMPNativeCoroutinesCore
+
+EXTERNAL SOURCES:
+  bumbleBee:
+    :path: "../bumbleBee"
+
+SPEC CHECKSUMS:
+  bumbleBee: 8ca51b8a99bd52fcba345bf876b70c4dc73dcc5c
+  KMPNativeCoroutinesAsync: 0fb5f7258e7b2bae50f03614a134bbbbfa3343ab
+  KMPNativeCoroutinesCore: 53c5b81bf7b74c556ce595931b3cdde87d6b2e45
+
+PODFILE CHECKSUM: a496c528db5ff49a6d21d9ff52e091e84948f701
+
+COCOAPODS: 1.11.3
